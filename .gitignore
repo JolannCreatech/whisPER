@@ -1,0 +1,89 @@
+## Fichiers sensibles et variables d'environnement
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+secrets/
+credentials/
+
+## Bases de données et sauvegardes locales
+*.db
+*.sqlites
+*.sqlite3
+*.db-shm
+*.db-wal
+*.sql
+*.dump
+*.bak
+*.backup
+backups/
+database/data/
+
+## Dépendances et builds
+node_modules/
+vendor/
+dist/
+build/
+out/
+target/
+coverage/
+.next/
+.nuxt/
+.turbo/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+## Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+## Docker et outils locaux
+.docker/
+docker-data/
+*.pid
+
+## IDE et éditeurs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.iml
+*.code-workspace
+
+## Système d'exploitation
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Fichiers générés et archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+public/uploads/
+uploads/
